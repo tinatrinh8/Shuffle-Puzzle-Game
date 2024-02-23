@@ -17,7 +17,7 @@ A classic sliding puzzle that challenges you to reorder a scrambled set of numbe
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/shuffle-puzzle-game.git
+git clone https://github.com/tinatrinh8/Shuffle-Puzzle-Game.git
 ```
 
 Navigate to the project directory and open `puzzleformat.html` in your web browser to start playing!
