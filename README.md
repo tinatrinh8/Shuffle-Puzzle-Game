@@ -4,7 +4,7 @@ The goal is to reorder numbers in sequence.
 [Click here to Play](https://tinatrinh8.github.io/Shuffle-Puzzle-Game/)
 
 ## 🫖 Overview 
-A classic sliding puzzle that challenges you to reorder a scrambled set of numbers into their correct sequence. Designed with simplicit, this game provides a delightful challenge for puzzle enthusiasts.
+A classic sliding puzzle that challenges you to reorder a scrambled set of numbers into their correct sequence. Designed with simplicity, this game provides a delightful challenge for puzzle enthusiasts.
 
 ## 📻 Features
 - **Interactive 4x4 Grid**: Play on a grid that holds numbers 1 through 15 and an empty slot for moving tiles around.
