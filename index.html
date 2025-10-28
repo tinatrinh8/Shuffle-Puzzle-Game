@@ -2,42 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title> Shuffle Puzzle Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Crossing Puzzle Garden</title>
+    <link rel="icon" type="image/png" href="apple.png" />
     <link rel="stylesheet" type="text/css" href="puzzlelayout.css" />
-
-    <body>
-      <h1>Shuffle Puzzle Game</h1>
-      <p>Goal: reorder the numbers in order!</p>
-
-      <table id="puzzle">
-        <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>6</td>
-          <td>7</td>
-          <td>8</td>
-        </tr>
-        <tr>
-          <td>9</td>
-          <td>10</td>
-          <td>11</td>
-          <td>12</td>
-        </tr>
-        <tr>
-          <td>13</td>
-          <td>14</td>
-          <td>15</td>
-          <td></td>
-        </tr>
-      </table>
-
-      <button onclick="shuffle()">Shuffle Numbers</button>
-      <script type="text/javascript" src="puzzle.js"></script>
-    </body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
+  <body>
+    <div class="game-container">
+      <header class="game-header">
+        <h1>SHUFFLE PUZZLE GARDEN</h1>
+        <p class="game-subtitle">
+          HELP THE FARMER ORGANIZE HIS PLOTS FOR PLANTING!
+        </p>
+      </header>
+
+      <div class="puzzle-container">
+        <table id="puzzle">
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="controls">
+        <button onclick="shuffle()" class="shuffle-btn">SHUFFLE GARDEN</button>
+      </div>
+
+      <div class="credits">
+        <p>Created by Tina Trinh</p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="puzzle.js"></script>
+  </body>
 </html>
